@@ -10,7 +10,7 @@ public class ReadAsset : Activity
     {
         base.OnCreate (bundle);
 
-        InputStream input = Assets.Open ("my_asset.txt");
+        InputStream input = Assets.Open ("my_asset.txt"); 
     }
 }
 
